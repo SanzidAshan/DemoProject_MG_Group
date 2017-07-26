@@ -56,7 +56,7 @@ class NewViewController: UIViewController {
             }
             }
                 else{
-                   ViewController().displayMyAlertMessage("Check Your Internet Connection")
+                    self.displayMyAlertMessage("Check Your Internet Connection")
                     print("Check Your Internet Connection")
                 }
             
@@ -70,6 +70,18 @@ class NewViewController: UIViewController {
         
        UserDefaults.standard.removeObject(forKey: "name")
        performSegue(withIdentifier: "ViewController", sender: ViewController.self)
+    }
+        func displayMyAlertMessage(_ userMessage:String)
+    {
+        
+        let myAlert = UIAlertController(title:"Something Wrong", message:userMessage, preferredStyle: UIAlertControllerStyle.alert);
+        
+        let okAction = UIAlertAction(title:"Ok", style:UIAlertActionStyle.default, handler:nil);
+        
+        myAlert.addAction(okAction);
+        self.present(myAlert, animated: true, completion: nil);
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
