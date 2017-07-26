@@ -142,6 +142,7 @@
                     </view>
                     <connections>
                         <outlet property="emailLabel" destination="Lqg-9y-Pqg" id="aj4-oA-bfX"/>
+                        <outlet property="logOutButtonOutlet" destination="g63-Q3-wGf" id="B5t-j8-oY0"/>
                         <outlet property="name" destination="JNj-I8-mOz" id="Zug-fa-DMI"/>
                         <outlet property="token" destination="082-HN-NJj" id="rh1-2W-m6f"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="ViewController" id="ElX-fm-lRe"/>

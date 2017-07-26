@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		71AEA8BA316F52A3A6DDE75C /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6334DA46F60A33BF95804F20 /* Pods_DemoProject.framework */; };
 		8F8A93C91F27C1D500A72739 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A93C81F27C1D500A72739 /* NewViewController.swift */; };
+		8F8A93D11F2905DA00A72739 /* AlertExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A93D01F2905DA00A72739 /* AlertExtention.swift */; };
 		D0E775D41F2755EE00CE615C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E775D31F2755EE00CE615C /* AppDelegate.swift */; };
 		D0E775D61F2755EE00CE615C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E775D51F2755EE00CE615C /* ViewController.swift */; };
 		D0E775D91F2755EE00CE615C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E775D71F2755EE00CE615C /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		4603B7B0C879847A1F3315AD /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		6334DA46F60A33BF95804F20 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8A93C81F27C1D500A72739 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		8F8A93D01F2905DA00A72739 /* AlertExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertExtention.swift; sourceTree = "<group>"; };
 		D0E775D01F2755EE00CE615C /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E775D31F2755EE00CE615C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E775D51F2755EE00CE615C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				D0E775D31F2755EE00CE615C /* AppDelegate.swift */,
 				D0E775D51F2755EE00CE615C /* ViewController.swift */,
 				8F8A93C81F27C1D500A72739 /* NewViewController.swift */,
+				8F8A93D01F2905DA00A72739 /* AlertExtention.swift */,
 				D0E775D71F2755EE00CE615C /* Main.storyboard */,
 				D0E775DA1F2755EE00CE615C /* Assets.xcassets */,
 				D0E775DC1F2755EE00CE615C /* LaunchScreen.storyboard */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8A93C91F27C1D500A72739 /* NewViewController.swift in Sources */,
+				8F8A93D11F2905DA00A72739 /* AlertExtention.swift in Sources */,
 				D0E775D61F2755EE00CE615C /* ViewController.swift in Sources */,
 				D0E775D41F2755EE00CE615C /* AppDelegate.swift in Sources */,
 			);
